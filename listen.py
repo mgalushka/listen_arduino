@@ -1,5 +1,6 @@
 import serial
-port = serial.Serial('/dev/ttyACMO', 9600);
+ser = serial.Serial('/dev/ttyACM0', 9600)
 
-while 1:
-	port.readLine()
+while 1 :
+    ser.readline()
+
